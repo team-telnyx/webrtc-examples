@@ -9,14 +9,13 @@ Sample click-to-call and dialpad drop-in widgets.
 Set up and install:
 
 ```
-npm run setup
-npm install
+yarn install
 ```
 
 To start the Storybook app:
 
 ```
-npm run storybook
+yarn storybook
 ```
 
 Your preferred browser should automatically open up to <http://localhost:6006>.

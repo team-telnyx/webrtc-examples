@@ -12,14 +12,13 @@ Sample client application that demonstrates:
 Set up and install:
 
 ```
-npm run setup
-npm install
+yarn install
 ```
 
 To start the sample app:
 
 ```
-npm start
+yarn start
 ```
 
 Your preferred browser should automatically open up to <http://localhost:3000>.

@@ -5,8 +5,8 @@ It is linked to the @telnyx/react-client package in the parent directory for dev
 To install the example app:
 
 ```shell
-npm install --no-package-lock
-npm run setup
+yarn install
+yarn start
 ```
 
-To start the app, fill in `.env` with information from your Telnyx portal and run `npm start`.
+To start the app, fill in `.env` with information from your Telnyx portal and run `yarn start`.
