@@ -18,15 +18,15 @@
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
-    "react-scripts": "^4.0.3",
-    "typescript": "4.0.5",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^25.1.4",
     "@types/node": "^12.12.38",
     "@types/react": "^16.9.27",
-    "@types/react-dom": "^16.9.7"
+    "@types/react-dom": "^16.9.7",
+    "react-scripts": "^5.0.1",
+    "typescript": "4.0.5"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "nth-check": "^2.0.1"
   }
 }
