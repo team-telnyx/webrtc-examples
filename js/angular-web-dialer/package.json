@@ -21,7 +21,7 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
-    "@telnyx/webrtc": "^2.8.1",
+    "@telnyx/webrtc": "^2.8.2",
     "angular-in-memory-web-api": "~0.14.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
