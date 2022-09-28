@@ -1,0 +1,15 @@
+<div>
+  <h2 id="logs">{{ log }}</h2>
+
+  <button type="button" (click)="connect()" [disabled]="(log !== '')">Connect</button>
+  <button class="btn-green" type="button" (click)="call()"
+    [disabled]="(log !== 'registered' && log !== 'destroy')">Call</button>
+  <button class="btn-red" type="button" (click)="hangup()" [disabled]="(log !== 'active')">Hang Up</button>
+</div>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
