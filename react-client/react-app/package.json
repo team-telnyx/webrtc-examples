@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@telnyx/react-client": "^1.0.1",
-    "@telnyx/webrtc": "^2.7.6",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "@telnyx/webrtc": "^2.9.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
