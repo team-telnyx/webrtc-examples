@@ -34,6 +34,7 @@ const videoStyle = {
 };
 
 function VideoCall() {
+  //@ts-ignore
   const client = useContext(TelnyxRTCContext);
   const notification = useNotification();
   const [destination, setDestination] = useState("");
@@ -94,6 +95,7 @@ function VideoCall() {
       <div style={{ position: "relative", width: 960, height: 450 }}>
         <section style={remoteVideoWrapperStyle}>
           <div style={videoLabelStyle}>Remote video</div>
+          {/* @ts-ignore */}
           <Video
             style={{
               ...videoStyle,
@@ -105,6 +107,7 @@ function VideoCall() {
 
         <section style={localVideoWrapperStyle}>
           <div style={videoLabelStyle}>Local</div>
+          {/* @ts-ignore */}
           <Video
             style={{
               ...videoStyle,
