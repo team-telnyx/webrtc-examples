@@ -2,7 +2,6 @@ import React, { useEffect, useState, useContext } from "react";
 import { Audio, TelnyxRTCContext, useNotification } from "@telnyx/react-client";
 
 function Phone() {
-  //@ts-ignore
   const client = useContext(TelnyxRTCContext);
   const notification = useNotification();
   const [destination, setDestination] = useState("");
@@ -58,7 +57,6 @@ function Phone() {
         )}
       </form>
 
-      {/* @ts-ignore */}
       <Audio stream={call?.remoteStream} />
     </div>
   );
